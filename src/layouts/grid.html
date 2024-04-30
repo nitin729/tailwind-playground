@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="../../style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <a
+      href="../../index.html"
+      class="inline-block p-2 m-2 rounded shadow-xl bg-rose-200"
+      >home</a
+    >
+    <h1 class="text-3xl font-bold underline text-center">Grid Layouts</h1>
+    <div class="grid grid-cols-1 md:grid-cols-4 h-screen max-h-[90vh] relative">
+      <div class="m-4 rounded bg-red-300 p-4 shadow-xl md:row-span-4">1</div>
+      <div class="m-4 rounded bg-green-300 p-4 shadow-xl md:col-span-1">2</div>
+      <div class="m-4 rounded bg-blue-300 p-4 shadow-xl md:col-span-2">3</div>
+      <div class="m-4 rounded bg-orange-300 p-4 shadow-xl md:col-span-2">4</div>
+      <div class="m-4 rounded bg-teal-300 p-4 shadow-xl md:col-span-1">5</div>
+      <div
+        class="m-4 rounded bg-pink-300 p-4 shadow-xl md:col-span-3 md:row-span-2"
+      >
+        6
+      </div>
+      <div class="m-4 rounded bg-cyan-300 p-4 shadow-xl md:col-span-4">7</div>
+    </div>
+  </body>
+</html>
